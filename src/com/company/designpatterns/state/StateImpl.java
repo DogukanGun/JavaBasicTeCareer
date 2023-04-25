@@ -16,6 +16,7 @@ public class StateImpl implements State{
     }
     @Override
     public void filterName(List<User> users , String n){
+        System.out.println("Results found:");
         for(int i = 0; i< users.size(); i++){
             if(users.get(i).name == n){
                 System.out.println(users.get(i).name+" "+users.get(i).age);
@@ -24,6 +25,7 @@ public class StateImpl implements State{
     }
     @Override
     public void filterAge(List<User> users , int a){
+        System.out.println("Results found:");
         for(int i = 0; i< users.size(); i++){
             if(users.get(i).age == a){
                 System.out.println(users.get(i).name+" "+users.get(i).age);

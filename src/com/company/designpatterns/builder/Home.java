@@ -31,6 +31,7 @@ public class Home {
     }
 
     public void setDoors(boolean doors) {
+
         this.doors = doors;
     }
 

@@ -6,6 +6,7 @@ public class HomeWithGardenFactory extends HomeFactory{
 
     @Override
     public Home createHome() {
+
         return this.createHomeBuilder().addGarden().getResult();
     }
 }
